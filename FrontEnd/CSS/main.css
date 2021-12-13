@@ -1,0 +1,183 @@
+/* 
+main.css 
+Archie Mason 
+
+Handles the styling of the HTML files
+
+
+--------------------
+Home Screen Styles
+*/
+
+.homeMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(105, 105, 105);
+}
+  
+.homeMenuItem {
+  float: left;
+}
+
+.homeMenuEnd {
+  float: right;
+}
+
+.homeMenuEnd a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeMenuEnd a:hover {
+  background-color: rgb(97, 97, 97);
+
+}
+  
+.homeMenuItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeMenuItem img {
+  display: block;
+  padding: 0px 0px;
+}
+  
+.homeMenuItem a:hover {
+  background-color: rgb(97, 97, 97);
+}
+
+.homeTitle {
+  float: left;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(97, 97, 97);
+}
+
+.homeSubTitle {
+  float: left;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(97, 97, 97);
+}
+
+.info {
+  float: left;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(97, 97, 97);
+  width: 100%;
+}
+
+.workingTableHolder {
+  position: relative;
+  size:inherit;
+  text-align: center;
+  width: 50%;
+}
+
+.dashboardWorkingTable{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  table-layout: fixed;
+  font-size: inherit;
+}
+
+.workingTableHeader {
+  color: rgb(97, 97, 97);
+  text-align: left;
+}
+
+.workingTableText {
+  text-align: left;
+}
+
+.homeAboutListHolder {
+  margin: 0;
+  padding: 0;
+}
+
+.homeAboutList {
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+/*
+------------------
+Login Screen Styles
+*/
+  
+.loginFormContainer {
+  text-align: center;
+  size: 500px 500px;
+}
+
+.loginTitle {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(97, 97, 97);
+}
+
+.loginSubTitle {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(129, 129, 129);
+}
+
+.loginImage {
+  text-align: center;
+}
+
+.loginForm {
+  text-align: center;
+  size: 100%;
+}
+
+.loginField {
+  text-align: center;
+  size: 70%;
+  border-radius: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  background-color: rgb(179, 179, 179);
+  border-radius: 10px;
+}
+
+.loginAlert {
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(105, 14, 14);
+  background: rgb(231, 137, 137);
+  border-color: crimson;
+}
+
+.loginInfo {
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(14, 15, 105);
+  background: rgb(186, 191, 240);
+  border-color: crimson;
+}
+
+  
